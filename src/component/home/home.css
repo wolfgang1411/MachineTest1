@@ -1,0 +1,54 @@
+.container{
+    width: 60vw;
+    background-color: #eee;
+    padding: 2.5rem;
+}
+
+.from__input{
+    padding: .8rem 1.5rem;
+    font-size: 1.6rem;
+}
+
+
+.add--btn{
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    background-color: green;
+    color: white;
+    margin-left: 2rem;
+}
+.add--btn:hover{
+    background-color: rgb(101, 207, 101);
+}
+
+.tasks{
+    font-size: 1.6rem;
+    margin-top: 5rem;
+}
+
+.task{
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task__text{
+
+}
+
+.delete--btn{
+        font-size: 1.6rem;
+        border: none;
+        border-bottom: 2px solid red;
+        background-color: white;
+        cursor: pointer;
+}
+
+.delete--btn:hover{
+    background-color: red;
+    color: white; 
+    padding: .5rem;  
+    display: inline-block; 
+}
